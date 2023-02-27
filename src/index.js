@@ -1,8 +1,20 @@
-// alert('You made it to this page')
 
-import {header} from '../homepage'
+import {header} from '../header'
+import {menu} from './menu'
+import {home} from './home'
 
 
-document.addEventListener('DOMContentLoaded', function(event) {
-    header()
+header()
+home()
+
+// document.addEventListener('DOMContentLoaded', function(event) {
+//     header()
+// })
+
+document.body.addEventListener('click', function(e) {
+
+    if (e.target.id=='menu'){
+        menu()
+    }
+
 })
