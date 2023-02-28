@@ -17,4 +17,8 @@ document.body.addEventListener('click', function(e) {
         menu()
     }
 
+    if (e.target.id=='home'){
+        home()
+    }
+
 })

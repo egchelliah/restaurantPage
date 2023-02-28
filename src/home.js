@@ -2,6 +2,9 @@ const home = () => {
 
     let maincontent = document.querySelector('.maincontent')
 
+    maincontent.innerHTML = ('')
+
+
 
     let welcome = document.createElement('h2')
     welcome.className='welcome'
